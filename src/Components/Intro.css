@@ -1,0 +1,123 @@
+.intro-container{
+    height: calc(100vh - 80px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.intro{
+    position: relative;
+    width:90% ;
+    margin:.5em  ;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+ .intro img {
+     position: relative;
+    animation: hand 1.8s infinite ;
+     transform-origin: 70% 70%;
+} 
+.btn{
+    display: inline-block;
+    padding: .2rem .5rem;
+    color: var(--clr-dark);
+    
+    text-decoration: none;
+    background: var(--clr-accent);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transfrom 200ms ease-in-out;
+    border: .1px solid var(--clr-accent);
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    color: var(--clr-light);
+    background: var(--clr-dark);
+    outline: none;
+    
+
+}
+@keyframes hand {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.intro h1{
+    font-size: 2.4rem;
+    color: var(--clr-light);
+    text-align: center;
+}
+.intro h3.front-end-title{
+    font-size: 1.8rem;
+    color: var(--clr-light);
+}
+.intro .btn:hover {
+    background:transparent;
+}
+@media(min-width:1030px){
+    .intro{
+       /*  display: grid; */
+        text-align: center;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-areas: 
+        "img title"
+        "img subtitle";
+        column-gap: 1em;
+        grid-template-columns:min-content max-content;
+    } 
+
+    .intro_img{
+    grid-area: img;
+    min-width:450px;
+    float: left;
+    position:relative;
+    z-index: 2;
+ }
+ .section_title_intro{
+     grid-row: 1/2;
+ }
+ .section_subtitle_intro{
+     align-self:flex-start;
+     grid-column: -1/1;
+     grid-row: 2/3;
+     text-align: right;
+     position: relative;
+     left: -1.5em;
+     width: calc(100%+1.5em);
+     z-index:-100;
+ }
+
+h3.front-end-title{
+    margin: 1em;
+
+ }
+}
