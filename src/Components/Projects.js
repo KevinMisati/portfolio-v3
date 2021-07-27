@@ -28,7 +28,7 @@ const projects = [
         techs: [],
         desc:""
      },
-    {
+   /*  {
         title: "Amazon clone",
         url: "https://50fe1.web.app/",
         img: "./images/amazon.png",
@@ -41,7 +41,7 @@ const projects = [
         img: "./images/FireShot Capture 028 - Hospital website - kevinhospital.netlify.app.png",
         techs: [],
         desc: ""
-    },
+    }, */
 ]
 
 const Projects = () => {
