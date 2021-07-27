@@ -17,6 +17,18 @@ const projects = [
         desc:""
     },
     {
+        title: "Construction company",
+        url: "https://we-build1.netlify.app/",
+        img:"./images/construction.png"
+     },
+    {
+        title: "Nasa api",
+        url: "https://nasaapii.netlify.app/",
+        img: "./images/nasa.png",
+        techs: [],
+        desc:""
+     },
+    {
         title: "Amazon clone",
         url: "https://50fe1.web.app/",
         img: "./images/amazon.png",
@@ -53,9 +65,9 @@ const Projects = () => {
                         </div>
                     )
                 })}
-                </div>
+
                
-           
+            </div>
         </section>
     )
 }
