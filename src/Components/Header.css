@@ -1,7 +1,8 @@
 .header-banner{
     height: 100vh;
     width: 100vw;
-     background-color:#d24d57 ;
+    background-color:#d24d57 ;
+    display: flex;
     background-image:linear-gradient(var(--clr-accent),var(--clr-accent)) ,url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-blend-mode: multiply;
     background-position: center;
