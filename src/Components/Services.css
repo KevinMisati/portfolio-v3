@@ -1,3 +1,4 @@
+
 .services{
     margin-bottom: 4em;
 }
@@ -51,29 +52,23 @@ section.my_services{
 .icon:hover .fa-code{
     color: var(--clr-light);
 }
-.btn{
-    display: inline-block;
-    padding: .2rem .5rem;
-    color: var(--clr-dark);
-    
-    text-decoration: none;
-    background: var(--clr-accent);
-    border-radius: 5px;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-weight: var(--fw-bold);
-    transition: transfrom 200ms ease-in-out;
-    border: .1px solid var(--clr-accent);
-    outline: none;
-    cursor: pointer;
-}
-.btn:hover{
-    
-    color: var(--clr-light);
-    background: var(--clr-dark);
-    outline: none;
-    
 
+@media (min-width:800px){
+    .services{
+        margin:auto ;
+        display: flex;
+        max-width: 1000px;
 }
-
+.services img {
+    max-width: 500px;
+}
+.services p {
+    margin-left: 1rem;
+}
+    .service{
+        max-width: 500px;
+        margin: 1em;
+    }
+    
+    
+}

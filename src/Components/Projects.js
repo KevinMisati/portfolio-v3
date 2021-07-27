@@ -1,4 +1,36 @@
 import React from 'react'
+import "./Projects.css"
+
+const projects = [
+    {
+        title:"Jumia",
+        url: "https://jumia-clone1.netlify.app/",
+        img: "./images/jumia.png",
+        techs: [],
+        desc:""
+    },
+     {
+        title:"Phone store",
+         url: "https://phon-store.netlify.app/",
+         img: "./images//store.png",
+        techs: [],
+        desc:""
+    },
+    {
+        title: "Amazon clone",
+        url: "https://50fe1.web.app/",
+        img: "./images/amazon.png",
+        techs: [],
+        desc: ""
+    },
+    {
+        title: "Hospital",
+        url: "https://kevinhospital.netlify.app/",
+        img: "./images/FireShot Capture 028 - Hospital website - kevinhospital.netlify.app.png",
+        techs: [],
+        desc: ""
+    },
+]
 
 const Projects = () => {
     return (
@@ -8,59 +40,22 @@ const Projects = () => {
             <p style={{ textAlign: "center", fontSize: ".9rem"}}><i >click on the images to view them live</i></p>
             <p class="section_subtitle"></p>
 
+           
+
             <div class="projects">
-
-
-               
-                <div class="project">
-                    <div class="project-image-div project-3">
-                        <a href="https://jumia-clone1.netlify.app/">
-                            <img src="./images/jumia.png" alt="${alt}" />
-                        </a> </div>
+                {projects.map((project) => {
+                    return (
+                        <div class="project">
+                            <div class="project-image-div project-3">
+                                <a href={project.url} >
+                                    <img src={project.img} alt={project.title} />
+                                </a> </div>
+                        </div>
+                    )
+                })}
                 </div>
                
-
-                <div class="project">
-                    <div class="project-image-div project-1">
-                        <a href="https://phon-store.netlify.app/">
-                            <img class="project-1" src="./images//store.png" alt="${alt}" />
-                        </a> </div>
-                </div>
-
-                <div class="project">
-                    <div class="project-image-div project-3">
-                        <a href="https://we-build1.netlify.app/">
-                            <img src="./images//construction.png" alt="${alt}" />
-                        </a> </div>
-                </div>
-
-
-
-             
-                <div class="project">
-                    <div class="project-image-div project-3">
-                        <a href="https://nasaapii.netlify.app/">
-                            <img src="./images/nasa.png" alt="${alt}" />
-                        </a> </div>
-                </div>
-              
-                <div class="project">
-                    <div class="project-image-div project-3">
-                        <a href="https://50fe1.web.app/">
-                            <img src="./images/amazon.png" alt="${alt}" />
-                        </a>
-                    </div>
-                </div>
-               
-                <div class="project">
-                    <div class="project-image-div project-3">
-                        <a href="https://kevinhospital.netlify.app/">
-                            <img src="./images/FireShot Capture 028 - Hospital website - kevinhospital.netlify.app.png" alt="${alt}" />
-                        </a>
-                    </div>
-                </div>
-               
-            </div>
+           
         </section>
     )
 }

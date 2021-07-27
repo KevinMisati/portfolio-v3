@@ -1,0 +1,85 @@
+.my_work{
+    width: 100vw;
+    background: rgba(248, 250, 249, 0.747);
+}
+    .section_title_projects{
+        text-align: center;
+        color: var(--clr-accent);
+    }
+
+    span.hash{
+        color:#56e7d4 ;
+    }
+
+    .projects{
+        max-width: 90%;
+        text-align: center;
+        /* background: yellow; */
+        overflow: hidden;
+        margin:0 auto ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .project{
+        
+        width: 100%;
+        margin:2rem auto; 
+    }
+    .project-image-div{
+        
+        height:300px;
+        width: 300px;
+        overflow: hidden;
+        position: relative;
+        border-radius:5%;
+        box-shadow: var(--bs); 
+        position: relative;
+    }
+
+.project img{
+    min-width: 100%;
+    min-height:100%;
+    transition: var(--transition);
+}
+
+.project img:hover{
+        transform: scale(1.1);
+}
+
+@media (min-width:800px){
+    .my-work{
+        padding: 4rem;
+    }
+    .projects{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .project-image-div{
+        width: 300px;
+        height:300px;
+        overflow: hidden;
+        border-radius:5%;
+        box-shadow: var(--bs);
+    }
+    .project{
+       width:auto;
+       margin: 1rem;
+    }
+    .button{
+        display: none;
+    }
+}
+
+@media screen and (max-width:560px){
+     .project-image-div{
+        width: 80vw;
+        height:300px;
+    }
+
+}

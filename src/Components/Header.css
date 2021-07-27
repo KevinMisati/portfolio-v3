@@ -3,13 +3,6 @@
     width: 100vw;
      background-color:#d24d57 ;
     background-image:linear-gradient(var(--clr-accent),var(--clr-accent)) ,url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-blend-mode:saturation ;
-    background-blend-mode: color-burn;
-    background-blend-mode: color-dodge;
-    background-blend-mode: darken;
-    background-blend-mode: difference;
-    background-blend-mode: soft-light;
-    background-blend-mode: screen;
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -38,6 +31,8 @@
 .logo h3{
     font-size: 2rem;
     color: var(--clr-accent);
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 nav{
@@ -53,7 +48,6 @@ nav{
     left: 0;
     z-index: 100;
     clip-path: circle(0vw at 100% 0% );
-    /*transform: translateX(100%);*/
     transition: transform 250ms cubic-bezier(.5,0,.5,1);
     margin: 0;
     padding: 0;
@@ -88,14 +82,10 @@ nav{
 
 
 .humburger,.humburger::after,.humburger::before{
-    width: 2.5rem;
+    width: 2rem;
     height: 3.5px;
     background: var(--clr-accent);
     transition: var(--transition);
-    /*  animation-name:humburger ;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite; */
 }
 
 .humburger::after,.humburger::before{
@@ -136,7 +126,6 @@ nav{
 
 }
 .nav_open .nav{
-  /*transform: translateX(0); */
   display: block;
   clip-path: circle(100% at 50% 50%); 
   z-index: 100;
@@ -163,6 +152,11 @@ nav{
 button.nav_toggle{
     outline: none;
 }
+@media screen and (max-width:767px){
+    .logo h3{
+        font-size: 1.5rem;
+    }
+}
 
 @media (min-width:900px){
     button.nav_toggle{
@@ -178,10 +172,7 @@ button.nav_toggle{
     align-items: center;
     justify-content: center;
       width: 98.3vw; 
-      border-bottom: 1px solid var(--clr-accent);
-        
-        
-        
+      border-bottom: 1px solid var(--clr-accent);   
     }
     .nav_list{
         list-style: none;
@@ -193,7 +184,6 @@ button.nav_toggle{
         align-content: space-between;
         margin-left: auto;
           width:50%;
-        
     }
 
     .nav_link{
@@ -202,8 +192,6 @@ button.nav_toggle{
         font-weight: 300;
         text-decoration: none;
         margin-left: auto;
-
-    
     }
     .logo{
         display: inline-block;

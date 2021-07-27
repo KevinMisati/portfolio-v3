@@ -20,32 +20,10 @@
      position: relative;
     animation: hand 1.8s infinite ;
      transform-origin: 70% 70%;
+     display: block;
+     margin-bottom: 1.35rem;
 } 
-.btn{
-    display: inline-block;
-    padding: .2rem .5rem;
-    color: var(--clr-dark);
-    
-    text-decoration: none;
-    background: var(--clr-accent);
-    border-radius: 5px;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-weight: var(--fw-bold);
-    transition: transfrom 200ms ease-in-out;
-    border: .1px solid var(--clr-accent);
-    outline: none;
-    cursor: pointer;
-}
-.btn:hover{
-    
-    color: var(--clr-light);
-    background: var(--clr-dark);
-    outline: none;
-    
 
-}
 @keyframes hand {
   0% {
     transform: rotate(0deg);
@@ -70,7 +48,7 @@
   }
 }
 .intro h1{
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: var(--clr-light);
     text-align: center;
 }
@@ -80,6 +58,21 @@
 }
 .intro .btn:hover {
     background:transparent;
+}
+@media(max-width:767px){
+  .intro h1{
+    font-size: 1.5rem;
+   
+  }
+  .intro h3.front-end-title{
+    font-size: 1.5rem;
+    color: var(--clr-light);
+}
+.intro img{
+  width: 37px;
+  margin-bottom: 1rem;
+  display: block;
+}
 }
 @media(min-width:1030px){
     .intro{
@@ -94,6 +87,7 @@
         column-gap: 1em;
         grid-template-columns:min-content max-content;
     } 
+    
 
     .intro_img{
     grid-area: img;
