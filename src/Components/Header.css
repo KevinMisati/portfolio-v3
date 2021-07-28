@@ -4,6 +4,7 @@
     background-color:rgb(210, 77, 87) ;
     background-color: rgba(210, 77, 87 ,1);
     display: flex;
+    justify-content: center;
     background-image:linear-gradient(var(--clr-accent),var(--clr-accent)) ,url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-blend-mode: multiply;
     background-position: center;
@@ -17,6 +18,7 @@
     display: flex;
     align-items: center; 
     padding: auto 3rem;
+    justify-content: center;
 }
 
 .logo-container{
