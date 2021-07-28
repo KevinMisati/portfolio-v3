@@ -44,17 +44,17 @@ nav{
     background-color: var(--clr-dark);
     opacity: 0.8;
     color: var(--clr-light);
-    top:0;
-    bottom:0;
+    top: 0;
     right: 0;
     left: 0;
-    z-index: 100;
+  z-index: 100;
     clip-path: circle(0vw at 100% 0% );
     transition: transform 250ms cubic-bezier(.5,0,.5,1);
     margin: 0;
     padding: 0;
     transition: clip-path 1s ease-in-out  ;
      border-bottom: 1px solid var(--clr-accent);
+    
 }
 
 .nav_list{
@@ -134,7 +134,7 @@ nav{
 }
 
 .nav_open,.nav_toggle{
-    position: fixed;
+   
     outline: none;
 }
 

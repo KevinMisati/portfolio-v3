@@ -1,6 +1,7 @@
 .my_work{
     width: 100vw;
     background: rgba(248, 250, 249, 0.747);
+    z-index: -500;
 }
     .section_title_projects{
         text-align: center;
@@ -25,7 +26,6 @@
         flex-wrap: wrap;
     }
     .project{
-        
         width: 100%;
         margin:2rem auto; 
     }
@@ -44,6 +44,7 @@
     min-width: 100%;
     min-height:100%;
     transition: var(--transition);
+    z-index: -100;
 }
 
 .project img:hover{
