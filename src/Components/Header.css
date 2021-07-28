@@ -1,35 +1,35 @@
 .header-banner{
     height: 100vh;
-   width: 100%;
-    background-color:rgb(210, 77, 87) ;
+    width: 100vw;
     background-color: rgba(210, 77, 87 ,1);
     display: flex;
-    justify-content: center;
     background-image:linear-gradient(var(--clr-accent),var(--clr-accent)) ,url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    position: relative;
 }
 .header{
     height: 70px;
     display: flex;
     align-items: center; 
     padding: auto 3rem;
-    justify-content: center;
+   
 }
 
 .logo-container{
     position: absolute;
     display:flex;
     align-items: center;
+
    }
 .logo{
-    position: fixed;
-    z-index: 200;
+   position: fixed;
+    z-index: 2000;
     cursor: pointer;
+
 }
 .logo h3{
     font-size: 2rem;
@@ -40,22 +40,22 @@
 
 nav{
     position: fixed;
-     width: 100%; 
+     width: 100vw; 
     height: 100vh;
     background-color: var(--clr-dark);
     opacity: 0.8;
     color: var(--clr-light);
-    top: 0;
+    top:0;
+    bottom:0;
     right: 0;
     left: 0;
-  z-index: 100;
+    z-index: 100;
     clip-path: circle(0vw at 100% 0% );
     transition: transform 250ms cubic-bezier(.5,0,.5,1);
     margin: 0;
     padding: 0;
     transition: clip-path 1s ease-in-out  ;
      border-bottom: 1px solid var(--clr-accent);
-    
 }
 
 .nav_list{
@@ -126,7 +126,7 @@ nav{
     top: 1em;
     z-index: 400;
     outline: none;
-
+    position: fixed;
 }
 .nav_open .nav{
   display: block;
@@ -135,7 +135,7 @@ nav{
 }
 
 .nav_open,.nav_toggle{
-   
+    position: fixed;
     outline: none;
 }
 
