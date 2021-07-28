@@ -6,10 +6,22 @@ const Header = () => {
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false)
     const handleHarmbuggerClick = () => {
         setIsMobileNavOpen(!isMobileNavOpen)
+        const nav = document.getElementById("nav")
+        nav.classList.toggle("nav_open")
+        console.log(nav)
        
     }
+    const handleNavToggle = () => {
+       
+    }
+    const handleNavRemoval = () => {
+        const nav = document.getElementById("nav")
+        nav.classList.remove("nav_open")
+        console.log("hello there")
+    }
     return (
-        <div className={isMobileNavOpen ? "header-banner nav_open" :"header-banner"}>
+        <div id="nav" onClick={handleNavToggle} >
+            <div className="header-banner" >
             <section className="header">
                 <header>
                     <div className="logo-container">
@@ -24,9 +36,9 @@ const Header = () => {
                     </button>
                     <nav className= "nav" >
                         <ul className="nav_list">
-                            <li className="nav_item"><a href="#home" className=" link1 nav_link">Home</a></li>
-                            <li className="nav_item"><a href="#services" className=" link2 nav_link">My Services</a></li>
-                            <li className="nav_item"><a href="#work" className="link4 nav_link">My Work</a></li>
+                                <li onClick={handleNavRemoval}  className="nav_item"><a href="#home" className=" link1 nav_link">Home</a></li>
+                                <li onClick={handleNavRemoval}className="nav_item"><a href="#services" className=" link2 nav_link">My Services</a></li>
+                                <li onClick={handleNavRemoval}className="nav_item"><a href="#work" className="link4 nav_link">My Work</a></li>
 
                         </ul>
                     </nav>
@@ -34,6 +46,7 @@ const Header = () => {
             </section>
             <Intro />
             </div>
+    </div>
     )
 }
 
