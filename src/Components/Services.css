@@ -1,6 +1,8 @@
 
 .services{
     margin-bottom: 4em;
+    overflow: hidden;
+    
 }
 
 h3.front-end-title{
@@ -11,46 +13,15 @@ h3.front-end-title{
 section.my_services{
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    background-image: url();
-    background-size: cover;
     text-align: center;
     margin-bottom: 4em;
-
+    overflow: hidden;
 }
-
-/* .services{
-    margin-bottom: 4em;
-} */
 .section_title_services{
     color: var(--clr-accent);
-    
-
 }
 .my_services .underline{
     background: var(--clr-light);
-}
-
-
-.icon{
-    width: 70px;
-    height: 70px;
-    border: 2px solid var(--clr-accent);
-    transform: rotate(45deg);
-    transition: var(--transition);
-    margin: 1rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.icon .fa-code{
-    color: var(--clr-accent);
-    transform: rotate(-45deg);
-}
-.icon:hover {
-    background: var(--clr-accent);
-}
-.icon:hover .fa-code{
-    color: var(--clr-light);
 }
 
 @media (min-width:800px){

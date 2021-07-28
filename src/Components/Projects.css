@@ -1,7 +1,8 @@
 .my_work{
-    width: 100vw;
+    width: 100%;
     background: rgba(248, 250, 249, 0.747);
     z-index: -500;
+    overflow: hidden;
 }
     .section_title_projects{
         text-align: center;
@@ -24,6 +25,7 @@
         align-items: center;
         position: relative;
         flex-wrap: wrap;
+        overflow: hidden;
     }
     .project{
         width: 100%;

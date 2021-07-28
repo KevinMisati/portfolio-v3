@@ -5,16 +5,11 @@
     align-items: center;
     justify-content: center;
     align-self: center;
-
-}
+    overflow: hidden;
+  }
 .intro{
     position: relative;
-    width:90% ;
-    margin:.5em  ;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin:.5rem auto ;  
     text-align: center;
 }
  .intro img {
@@ -77,40 +72,10 @@
 }
 @media(min-width:1030px){
     .intro{
-       /*  display: grid; */
         text-align: center;
         width:90%;
-        margin-left: auto;
-        margin-right: auto;
-        grid-template-areas: 
-        "img title"
-        "img subtitle";
-        column-gap: 1em;
-        grid-template-columns:min-content max-content;
+        margin: 0 auto;
     } 
-    
-
-    .intro_img{
-    grid-area: img;
-    min-width:450px;
-    float: left;
-    position:relative;
-    z-index: 2;
- }
- .section_title_intro{
-     grid-row: 1/2;
- }
- .section_subtitle_intro{
-     align-self:flex-start;
-     grid-column: -1/1;
-     grid-row: 2/3;
-     text-align: right;
-     position: relative;
-     left: -1.5em;
-     width: calc(100%+1.5em);
-     z-index:-100;
- }
-
 h3.front-end-title{
     margin: 1em;
 

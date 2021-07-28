@@ -6,8 +6,10 @@ footer{
     padding:.5rem 0 0 0;
     font-size: var(--fs-h3);
     width: 100%; 
+   
     clip-path: polygon(0% 0%, 50% 20%, 100% 0%, 100% 100%, 0% 100%);
     padding: 5rem 0 0 0;
+    overflow: hidden;
 }
 
 footer .contact-title{
