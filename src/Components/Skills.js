@@ -20,6 +20,8 @@ const Skills = () => {
                     <p class="row6">Bootstrap <i class="fab fa-bootstrap"></i></p>
                     <p class="row7">React <i class="fab fa-react"></i></p>
                     <p class="row8">Redux <i class="fas fa-sitemap"></i></p>
+                    <p class="row8">Django <i class="fas fa-server"></i></p>
+                    <p class="row8">PostreSQL <i class="fas fa-database"></i></p>
                     <p class="row9">Git <i class="fab fa-git-alt"></i></p>
                     <p class="row10">Github <i class="fab fa-github"></i></p>
             </div>

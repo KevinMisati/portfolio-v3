@@ -66,7 +66,7 @@ const Projects = () => {
                     return (
                         <div class="project">
                             <div class="project-image-div project-3">
-                                <a href={project.url} >
+                                <a target="_blank" href={project.url} >
                                     <img src={project.img} alt={project.title} />
                                 </a> </div>
                         </div>
