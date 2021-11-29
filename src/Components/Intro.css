@@ -1,16 +1,5 @@
-.intro-container{
-    height: calc(100vh - 100px);
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    overflow: hidden;
-    margin-right: 2rem;
-  }
 .intro{
-    position: relative;
-    margin:.5rem auto ;  
+    position: relative; 
     text-align: center;
 }
  .intro img {
@@ -19,7 +8,7 @@
      transform-origin: 70% 70%;
      display: block;
      margin-bottom: 1.35rem;
-} 
+}
 
 @keyframes hand {
   0% {
@@ -74,8 +63,7 @@
 @media(min-width:1030px){
     .intro{
         text-align: center;
-        width:90%;
-        margin: 0 auto;
+        width:90vw;
     } 
 h3.front-end-title{
     margin: 1em;

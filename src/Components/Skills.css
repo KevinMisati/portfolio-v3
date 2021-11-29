@@ -1,9 +1,14 @@
 .skills-container{
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 1000px;
 }
 .skills{
     width: 100%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,14 +18,7 @@
      text-align: center;
         color: var(--clr-accent);
 }
-.skills-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-}
+
 .skills-container p {
     background-color: var(--clr-accent);
     border: 1px solid var(--main-color);

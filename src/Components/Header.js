@@ -37,14 +37,17 @@ const Header = () => {
                     <nav className= "nav" >
                         <ul className="nav_list">
                                 <li onClick={handleNavRemoval}  className="nav_item"><a href="#home" className=" link1 nav_link">Home</a></li>
-                                <li onClick={handleNavRemoval}className="nav_item"><a href="#services" className=" link2 nav_link">My Services</a></li>
-                                <li onClick={handleNavRemoval}className="nav_item"><a href="#work" className="link4 nav_link">My Work</a></li>
+                                <li onClick={handleNavRemoval}className="nav_item"><a href="#services" className=" link2 nav_link">Services</a></li>
+                                <li onClick={handleNavRemoval}className="nav_item"><a href="#work" className="link4 nav_link">Projects</a></li>
 
                         </ul>
                     </nav>
                 </header>
             </section>
-            <Intro />
+            <div className="intro-main-container">
+                    <Intro />
+            </div>
+            
             </div>
     </div>
     )

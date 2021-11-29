@@ -1,8 +1,14 @@
-
+.my_services{
+    width:100vw;
+    width: 100%;
+}
 .services{
-    margin-bottom: 4em;
+    margin-bottom: 0rem;
     overflow: hidden;
     
+}
+.services *{
+    overflow-x: hidden;
 }
 
 h3.front-end-title{
@@ -23,12 +29,17 @@ section.my_services{
 .my_services .underline{
     background: var(--clr-light);
 }
+.services_text{
+    max-width: 600px;
+}
 
 @media (min-width:800px){
     .services{
         margin:auto ;
+        margin-bottom: 1.5rem;
         display: flex;
         max-width: 1000px;
+        align-items: center;
 }
 .services img {
     max-width: 500px;
@@ -42,4 +53,12 @@ section.my_services{
     }
     
     
+}
+@media screen and (max-width:800px){
+    .services img{
+        margin-bottom: 1rem;
+    }
+    .btn{
+        margin: 1rem 0;
+    }
 }

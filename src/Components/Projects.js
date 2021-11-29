@@ -3,11 +3,18 @@ import "./Projects.css"
 
 const projects = [
     {
-        title:"Jumia",
+        title:"Electronics Shop",
+        url: "https://electron-shop.herokuapp.com/",
+        img: "./images/electronics.png",
+        techs: [],
+        desc:""
+    },
+    {
+        title: "Jumia",
         url: "https://jumia-clone1.netlify.app/",
         img: "./images/jumia.png",
         techs: [],
-        desc:""
+        desc: ""
     },
      {
         title:"Phone store",
@@ -53,7 +60,7 @@ const Projects = () => {
             <p class="section_subtitle"></p>
 
            
-
+            <div class="projects-container">
             <div class="projects">
                 {projects.map((project) => {
                     return (
@@ -67,6 +74,7 @@ const Projects = () => {
                 })}
 
                
+            </div>
             </div>
         </section>
     )

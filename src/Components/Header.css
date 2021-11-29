@@ -1,8 +1,7 @@
 .header-banner{
-    height: 100vh;
-    width: 100vw;
     background-color: rgba(210, 77, 87 ,1);
     display: flex;
+    flex-direction: column;
     background-image:linear-gradient(var(--clr-accent),var(--clr-accent)) ,url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-blend-mode: multiply;
     background-position: center;
@@ -10,13 +9,25 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
 }
+.intro-main-container{
+    width:100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .header{
     height: 70px;
     display: flex;
-    align-items: center; 
-    padding: auto 3rem;
-   
+    align-items: center;
 }
 
 .logo-container{
@@ -56,6 +67,8 @@ nav{
     padding: 0;
     transition: clip-path 1s ease-in-out  ;
      border-bottom: 1px solid var(--clr-accent);
+     overflow-x: hidden;
+     
 }
 
 .nav_list{

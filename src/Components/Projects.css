@@ -1,8 +1,9 @@
 .my_work{
-    width: 100%;
+    width: 100vw;
     background: rgba(248, 250, 249, 0.747);
     z-index: -500;
     overflow: hidden;
+    width: 100%;
 }
     .section_title_projects{
         text-align: center;
@@ -12,11 +13,17 @@
     span.hash{
         color:#56e7d4 ;
     }
+    .projects-container{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .projects{
-        max-width: 90%;
+        max-width: 90vw;
+        
         text-align: center;
-        /* background: yellow; */
         overflow: hidden;
         margin:0 auto ;
         display: flex;
@@ -25,16 +32,15 @@
         align-items: center;
         position: relative;
         flex-wrap: wrap;
-        overflow: hidden;
     }
     .project{
-        width: 100%;
+        width: 90vw;
         margin:2rem auto; 
     }
     .project-image-div{
         
         height:300px;
-        width: 300px;
+        width: 300px; 
         overflow: hidden;
         position: relative;
         border-radius:5%;
@@ -43,8 +49,8 @@
     }
 
 .project img{
-    min-width: 100%;
-    min-height:100%;
+     min-width: 100%;
+    min-height:100%; 
     transition: var(--transition);
     z-index: -100;
 }
@@ -61,6 +67,7 @@
         flex-direction: row;
         flex-wrap: wrap; 
         justify-content: center;
+        max-width: 1144px;
     }
 
     .project-image-div{
