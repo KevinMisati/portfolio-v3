@@ -24,6 +24,11 @@ const projects = [
         desc:""
     },
     {
+        title: "Hospitality Website",
+        url: "https://liviti.netlify.app/",
+        img: "./images/livit.png"
+    },
+    {
         title: "Construction company",
         url: "https://we-build1.netlify.app/",
         img:"./images/construction.png"
