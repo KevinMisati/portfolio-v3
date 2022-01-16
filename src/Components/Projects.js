@@ -17,9 +17,9 @@ const projects = [
         desc: ""
     },
      {
-        title:"Phone store",
-         url: "https://phon-store.netlify.app/",
-         img: "./images//store.png",
+        title:"Snap Shots",
+         url: "https://photos01.netlify.app/",
+         img: "./images/snapshot.png",
         techs: [],
         desc:""
     },

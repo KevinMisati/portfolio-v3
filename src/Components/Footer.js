@@ -12,15 +12,25 @@ const Footer = () => {
             <a href="mailto:kevinmisati001@gmail.com" class="footer_link">kevinmisati001@gmail.com</a>
 
             <ul>
-                <li class="footer_link"><a href="https://www.facebook.com/kevin.misati.37">
-                    <i class="fab fa-facebook fa-fw fa-2x"></i></a></li>
+                <li class="footer_link">
+                    <a href="https://www.facebook.com/kevin.misati.37" target="_blank">
+                    <i class="fab fa-facebook fa-fw fa-2x"></i>
+                    </a>
+                </li>
                
-                <li class="footer_link"><a href="https://api.whatsapp.com/send/?phone=254741154014&text&app_absent=0">
-                    <i class="fab fa-whatsapp fa-fw fa-2x"></i></a></li>
-                <li class="footer_link"><a href="https://github.com/KevinMisati">
-                    <i class="fab fa-github fa-fw fa-2x"></i></a></li>
+                <li class="footer_link">
+                    <a href="https://www.linkedin.com/in/kevin-misati-b5a399208/" target="_blank">
+                    <i class="fab fa-linkedin fa-fw fa-2x">
+
+                    </i>
+                    </a>
+                    </li>
+                <li class="footer_link">
+                    <a href="https://github.com/KevinMisati" target="_blank">
+                    <i class="fab fa-github fa-fw fa-2x"></i>
+                    </a></li>
             </ul>
-            <p class="copyright">Kevin Misati &copy;2020</p>
+            <p class="copyright">Kevin Misati &copy;2022</p>
         </footer>
     )
 }
