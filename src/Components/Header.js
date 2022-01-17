@@ -40,8 +40,12 @@ const Header = () => {
                                 <li onClick={handleNavRemoval} className="nav_item">
                                     <Link to="/" className=" link1 nav_link">Home</Link>
                                 </li>
-                                <li onClick={handleNavRemoval} className="nav_item"><a href="#services" className=" link2 nav_link">Services</a></li>
-                                <li onClick={handleNavRemoval} className="nav_item"><a href="#work" className="link4 nav_link">Projects</a></li>
+                                <li onClick={handleNavRemoval} className="nav_item">
+                                    <Link to="/#services" className=" link2 nav_link">Services</Link>
+                                </li>
+                                <li onClick={handleNavRemoval} className="nav_item">
+                                    <Link to="/#work" className="link4 nav_link">Projects</Link>
+                                </li>
 
                             </ul>
                         </nav>
