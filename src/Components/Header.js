@@ -21,7 +21,7 @@ const Header = () => {
     }
     return (
         <div id="nav" onClick={handleNavToggle} >
-            <div className="header-banner" >
+            <div className="main-header-banner" >
                 <section className="header">
                     <header>
                         <div className="logo-container">
