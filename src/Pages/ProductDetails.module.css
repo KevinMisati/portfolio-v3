@@ -57,11 +57,11 @@
     justify-content: flex-start;
 }
 .about{
-    flex: .65;
+    flex: .60;
     margin: 2rem 0;
 }
 .technologies{
-    flex:.2;
+    flex:.30;
 }
 .techs-container{
     display: flex;
