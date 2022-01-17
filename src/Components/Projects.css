@@ -36,9 +36,9 @@
     .project{
         width: 90vw;
         margin:2rem auto; 
+        position: relative;
     }
     .project-image-div{
-        
         height:300px;
         width: 300px; 
         overflow: hidden;
@@ -46,7 +46,41 @@
         border-radius:5%;
         box-shadow: var(--bs); 
         position: relative;
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+         transition: var(--transition);
+        background-color: green;
     }
+    .project-image-div:hover::after{
+        content: "";
+        position:absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    }
+    .links{
+    position: absolute;
+    transform: translate(35px,125px);
+    z-index: 20;
+    display: none;
+    transition: var(--transition);
+}
+.project-image-div:hover .links{
+    display: block;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    padding: .35rem .7rem;
+    display: inline-block;
+    background-color: var(--clr-accent);
+    margin: 1rem;
+    text-align: center;
+    border-radius:15px;
+    box-shadow: -1px -1px 1px #999 inset;
+
+}
 
 .project img{
      min-width: 100%;
@@ -54,7 +88,6 @@
     transition: var(--transition);
     z-index: -100;
 }
-
 .project img:hover{
         transform: scale(1.1);
 }

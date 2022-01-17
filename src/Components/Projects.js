@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Projects.css"
+import {Link} from "react-router-dom"
 
-const projects = [
+export const projects = [
     {
         title:"Electronics Shop",
         url: "https://electron-shop.herokuapp.com/",
@@ -40,20 +41,6 @@ const projects = [
         techs: [],
         desc:""
      },
-   /*  {
-        title: "Amazon clone",
-        url: "https://50fe1.web.app/",
-        img: "./images/amazon.png",
-        techs: [],
-        desc: ""
-    },
-    {
-        title: "Hospital",
-        url: "https://kevinhospital.netlify.app/",
-        img: "./images/FireShot Capture 028 - Hospital website - kevinhospital.netlify.app.png",
-        techs: [],
-        desc: ""
-    }, */
 ]
 
 const Projects = () => {
@@ -71,9 +58,12 @@ const Projects = () => {
                     return (
                         <div class="project">
                             <div class="project-image-div project-3">
-                                <a target="_blank" href={project.url} >
+                                <div className="links">
+                                <Link to={`project/${project.title}`}>More info</Link>
+                                <a target="_blank" href={project.url} >View site</a>
+                                </div>
                                     <img src={project.img} alt={project.title} />
-                                </a> </div>
+                            </div>
                         </div>
                     )
                 })}

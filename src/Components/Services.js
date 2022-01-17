@@ -8,7 +8,7 @@ const Services = () => {
 <h2 class="section_title section_title_services">What I do</h2>
 <div class="underline"></div>
 <div class="services">
-    <img src="./images/developerActivity.svg" />
+    <img alt="coding" src="./images/developerActivity.svg" />
 
     <div class="services_text">
         <p>I love and enjoy building cool stuff for the web. I enjoy spending my free time increasing my knowledge on Web Development and building new and
