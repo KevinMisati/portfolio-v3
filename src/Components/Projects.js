@@ -58,11 +58,14 @@ const Projects = () => {
                     return (
                         <div class="project">
                             <div class="project-image-div project-3">
-                                <div className="links">
+                                {/* <div className="links">
                                 <Link to={`project/${project.title}`}>More info</Link>
                                 <a target="_blank" href={project.url} >View site</a>
-                                </div>
+                                </div> */}
+                                <Link to={`project/${project.title}`}>
                                     <img src={project.img} alt={project.title} />
+                                </Link>
+                                
                             </div>
                         </div>
                     )

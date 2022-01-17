@@ -50,7 +50,7 @@
          transition: var(--transition);
         background-color: green;
     }
-    .project-image-div::after{
+    /* .project-image-div::after{
         transition: var(--transition);
     }
     .project-image-div:hover::after{
@@ -61,17 +61,18 @@
         left: 0;
         right: 0;
         background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
-    }
+    } */
     .links{
     transform: translate(35px,0px);
     position: absolute;
-    z-index: 20;
+    z-index: -20;
     display: none;
     transition: var(--transition);
 }
 .project-image-div:hover .links{
     display: block;
     transform: translate(35px,125px);
+    z-index: 20;
 }
 .links a{
     color: #fff;
