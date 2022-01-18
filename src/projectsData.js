@@ -33,7 +33,7 @@ export const projects = [
     {
         title: "Hospitality Website",
         url: "https://liviti.netlify.app/",
-        img: "./images/livit.png",
+        img: livit,
         techs: ["CSS", "React"],
         desc: "This is a website for people who enjoy traveling, possibly during the holidays, and who want to book their accommodation houses or rooms online before they go. They simply look through the houses and rooms and choose the ones they like best.",
         gurl:"https://github.com/KevinMisati/hospitality-management"
