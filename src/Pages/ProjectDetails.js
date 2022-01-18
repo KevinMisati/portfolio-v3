@@ -19,10 +19,10 @@ const Project = () => {
                 </div>
                 <div className={classes["about-container"]}>
                 <div className={classes.links}>
-                    <a target="_blank" href={url}>
+                    <a href={url}>
                         View live <i className="fas fa-eye"></i>
                     </a>
-                    <a target="_blank" href={gurl}>
+                    <a href={gurl}>
                         view code <i className="fab fa-github"></i>
                     </a>
                 </div>
