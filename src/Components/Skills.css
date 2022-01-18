@@ -39,6 +39,9 @@
 .skills i{
     margin-left: 5px;
 }
+.underline{
+    height: 2px !important;
+}
 @media screen and (max-width:576px){
     .skills p{
         width: auto;
