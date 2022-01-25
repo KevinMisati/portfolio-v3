@@ -108,5 +108,9 @@
     .about-container{
         padding: 1rem;
     }
+    .links a{
+        width: 150px;
+        padding: .35rem 7rem;
+    }
     
 }
