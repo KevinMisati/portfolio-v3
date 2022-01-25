@@ -38,7 +38,6 @@
     display: inline-block;
     text-align: center;
     width: 200px;
-    margin:0 0rem 1rem 0;
     box-shadow: -3px -3px 2px #aaa inset;
 }
 .links a:hover{
@@ -100,6 +99,9 @@
 @media screen and (max-width:576px){
     .about-techs{
         flex-direction: column;
+    }
+    .links{
+        margin: 1rem 0;
     }
     .links a{
         width: 150px;
