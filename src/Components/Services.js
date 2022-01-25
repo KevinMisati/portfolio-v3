@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Services.css"
-import coderImg from "../images/developer.svg"
+import coderImg from "../images/developer.png"
 
 const Services = () => {
     return (
