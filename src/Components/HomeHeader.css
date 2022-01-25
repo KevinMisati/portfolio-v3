@@ -1,10 +1,8 @@
 .header-banner{
     display: flex;
     flex-direction: column;
-    
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url("https://image.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-grid-background_53876-129728.jpg") center/cover fixed no-repeat ;
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url("https://image.freepik.com/free-vector/neon-light-frame_53876-91651.jpg") center/cover  no-repeat ;
-    
     position: relative;
     height: 100vh;
     width: 100%;
@@ -12,7 +10,6 @@
     padding:0;
     overflow-x: hidden;
 }
-/* "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" */
 .intro-main-container{
     width:100vw;
     height: calc(100vh - 100px);
@@ -20,196 +17,5 @@
     justify-content: center;
     align-items: center;
     
-}
-
-.header{
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
-.logo-container{
-    position: absolute;
-    display:flex;
-    align-items: center;
-
-   }
-.logo{
-   position: fixed;
-    z-index: 2000;
-    cursor: pointer;
-
-}
-.logo h3{
-    font-size: 2rem;
-    color: var(--clr-accent);
-    font-family: 'Pacifico', cursive;
-    font-family: 'Satisfy', cursive;
-}
-
-nav{
-    position: fixed;
-     width: 100vw; 
-    height: 100vh;
-    background-color: var(--clr-dark);
-    opacity: 0.8;
-    color: var(--clr-light);
-    top:0;
-    bottom:0;
-    right: 0;
-    left: 0;
-    z-index: 100;
-    clip-path: circle(0vw at 100% 0% );
-    transition: transform 250ms cubic-bezier(.5,0,.5,1);
-    margin: 0;
-    padding: 0;
-    transition: clip-path 1s ease-in-out  ;
-     border-bottom: 1px solid var(--clr-accent);
-     overflow-x: hidden;
-     
-}
-
-.nav_list{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    align-items: center;
-}
-.nav_link{
-    color: inherit;
-    font-weight: var(--fw-bold);
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-.nav_link:hover{
-    color: var(--clr-accent);
-}
-
-.humburger{
-    display: block;
-    position: relative;
-    outline: none;
-}
-
-
-.humburger,.humburger::after,.humburger::before{
-    width: 2rem;
-    height: 3.5px;
-    background: var(--clr-accent);
-    transition: var(--transition);
-}
-
-.humburger::after,.humburger::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    
-    
-}
-@keyframes humburger{
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.25);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-.humburger::before{
-    top:8px;}
-.humburger::after{
-    bottom:8px;
-}
-
-.nav_toggle{
-    background: transparent;
-    padding: 1em;
-    border: 0;
-    cursor: pointer;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    z-index: 400;
-    outline: none;
-    position: fixed;
-}
-.nav_open .nav{
-  display: block;
-  clip-path: circle(100% at 50% 50%); 
-  z-index: 100;
-}
-
-.nav_open,.nav_toggle{
-   
-    outline: none;
-}
-
-.nav_open .humburger{
-    transform: rotate(135deg);
-    outline: none;
-}
-
-.nav_open .humburger::before{
-    opacity: 0;
-    outline: none;
-}
-
-.nav_open .humburger::after{
-    transform: rotate(90deg) translateX(6px);
-}
-button.nav_toggle{
-    outline: none;
-}
-@media screen and (max-width:767px){
-    .logo h3{
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width:900px){
-    button.nav_toggle{
-        display: none;
-    }
-    nav{
-    clip-path: none;
-    top:0;
-    bottom:auto ;
-    height: 70px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      width: 98.3vw; 
-      border-bottom: 1px solid var(--clr-accent);   
-    }
-    .nav_list{
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        
-        align-items: center;
-        align-content: space-between;
-        margin-left: auto;
-          width:50%;
-    }
-
-    .nav_link{
-        color: inherit;
-        font-size: 1.1rem;
-        font-weight: 300;
-        text-decoration: none;
-        margin-left: auto;
-    }
-    .logo{
-        display: inline-block;
-        z-index: 300;
-    }
 }
 /*====end of header====*/

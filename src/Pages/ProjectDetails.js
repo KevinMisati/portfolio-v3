@@ -1,6 +1,5 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
-import Header from "../Components/Header"
 import classes from "./ProductDetails.module.css"
 import {projects} from "../projectsData"
 
@@ -11,7 +10,6 @@ const Project = () => {
     let {title,img,url,desc,techs,gurl} = projects.filter(project => project.title == titleParam)[0]
     return (
         <div className={classes["details-container"]}>
-            <Header />
             <div className={classes.details}>
                 <h3 className={classes.title} >{title}</h3>
                 

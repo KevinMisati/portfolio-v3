@@ -3,11 +3,11 @@
     text-align: center;
 }
  .intro img {
-     position: relative;
-    animation: hand 1.8s infinite ;
-     transform-origin: 70% 70%;
-     display: block;
-     margin-bottom: 1.35rem;
+    position: relative;
+  animation: hand 1.8s infinite ;
+    transform-origin: 70% 70%;
+    display: block;
+    margin-bottom: 1.35rem;
 }
 
 @keyframes hand {
@@ -42,8 +42,13 @@
     font-size: 1.8rem;
     color: var(--clr-light);
 }
+.intro .btn{
+  background-color: transparent;
+  color: var(--clr-light);
+  transition: var(--transition);
+}
 .intro .btn:hover {
-    background:transparent;
+    background-color:var(--clr-accent);
 }
 @media(max-width:767px){
   .intro h1{
