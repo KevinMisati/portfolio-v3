@@ -120,10 +120,11 @@ a{
 .btn{
     display: inline-block;
     padding: .2rem .5rem;
-    color: var(--clr-dark);
-    
+    /* color: var(--clr-dark); */
+    color: var(--clr-light);
     text-decoration: none;
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
+    background: transparent;
     border-radius: 5px;
     font-size: 1.5rem;
     text-transform: capitalize;
@@ -137,7 +138,8 @@ a{
 .btn:hover{
     
     color: var(--clr-light);
-    background: var(--clr-dark);
+    /* background: var(--clr-dark); */
+    background: var(--clr-accent);
     outline: none;
     
 
