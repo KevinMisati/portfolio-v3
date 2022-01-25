@@ -14,9 +14,7 @@ const Project = () => {
             <Header />
             <div className={classes.details}>
                 <h1 className={classes.fd} >{title}</h1>
-                <div className={classes["img-container"]} >
-                     
-          </div>
+                
                 <div className={classes["about-container"]}>
                 <div className={classes.links}>
                     <a href={url}>
@@ -25,6 +23,9 @@ const Project = () => {
                     <a href={gurl}>
                         view code <i className="fab fa-github"></i>
                     </a>
+                </div>
+                <div className={classes["img-container"]} >
+                    <img alt="project" src={img} />
                 </div>
                 <div className={classes["about-techs"]}>
                 <div className={classes.about}>
