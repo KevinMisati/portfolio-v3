@@ -13,10 +13,10 @@ const Project = () => {
         <div className={classes["details-container"]}>
             <Header />
             <div className={classes.details}>
-                <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)) , url(${img}` }} className={classes["img-container"]} >
-                    
-                    <h1 className={classes.fd} >{title}</h1>
-                </div>
+                <h1 className={classes.fd} >{title}</h1>
+                <div className={classes["img-container"]} >
+                     
+          </div>
                 <div className={classes["about-container"]}>
                 <div className={classes.links}>
                     <a href={url}>
