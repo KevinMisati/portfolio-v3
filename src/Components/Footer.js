@@ -13,7 +13,7 @@ const Footer = () => {
 
             <ul>
                 <li class="footer_link">
-                    <a href="https://www.facebook.com/kevin.misati.37" target="_blank">
+                    <a rel='' href="https://www.facebook.com/kevin.misati.37" target="_blank">
                     <i class="fab fa-facebook fa-fw fa-2x"></i>
                     </a>
                 </li>

@@ -48,20 +48,7 @@
         position: relative;
         background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
          transition: var(--transition);
-        background-color: green;
     }
-    /* .project-image-div::after{
-        transition: var(--transition);
-    }
-    .project-image-div:hover::after{
-        content: "";
-        position:absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
-    } */
     .links{
     transform: translate(35px,0px);
     position: absolute;

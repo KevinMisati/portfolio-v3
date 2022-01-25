@@ -140,6 +140,23 @@ a{
     
 
 }
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius:20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+  background: var(--clr-accent);
+  border-radius:50px;
+}
 @media (max-width:767px){
     .btn{
         padding: .35rem .5rem;
