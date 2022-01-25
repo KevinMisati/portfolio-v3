@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Projects.css"
 import {Link} from "react-router-dom"
+import { ANIMATIONTYPE } from '../Pages/Home'
 
 export const projects = [
     {
@@ -55,7 +56,7 @@ const Projects = () => {
             <div class="projects">
                 {projects.map((project) => {
                     return (
-                        <div class="project">
+                        <div data-aos={ANIMATIONTYPE} class="project">
                             <div class="project-image-div project-3">
                                 {/* <div className="links">
                                 <Link to={`project/${project.title}`}>More info</Link>
