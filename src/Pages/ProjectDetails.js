@@ -24,7 +24,7 @@ const Project = () => {
                         view code <i className="fab fa-github"></i>
                     </a>
                 </div>
-                <div className={classes["img-container"]} >
+                <div className={classes["product-img"]} >
                     <img alt="project" src={img} />
                 </div>
                 <div className={classes["about-techs"]}>
