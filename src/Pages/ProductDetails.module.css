@@ -6,6 +6,10 @@
     width: 100%;
     max-width: 900px;
     margin: auto;
+    padding:1rem;
+}
+.details .title{
+    margin:2rem auto 0 auto;
 }
 .about-container{
     width: 100%;
@@ -64,7 +68,6 @@
 /* techs */
 .about-techs{
     width: 100%;
-    max-width: 1140px;
     justify-content: flex-start;
 }
 .about{
@@ -98,9 +101,7 @@
      background-color: transparent;
      color: var(--clr-dark);
 }
-.about-container{
-        padding: 1rem;
-    }
+
 @media screen and (max-width:576px){
     .about-techs{
         flex-direction: column;

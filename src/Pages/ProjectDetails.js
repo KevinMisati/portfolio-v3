@@ -13,7 +13,7 @@ const Project = () => {
         <div className={classes["details-container"]}>
             <Header />
             <div className={classes.details}>
-                <h3 className={classes.fd} >{title}</h3>
+                <h3 className={classes.title} >{title}</h3>
                 
                 <div className={classes["about-container"]}>
                 <div className={classes.links}>
