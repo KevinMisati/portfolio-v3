@@ -141,7 +141,7 @@ a{
 /* scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
-    border-radius:20px;
+    border-radius:100%;
 }
 
 /* Track */
