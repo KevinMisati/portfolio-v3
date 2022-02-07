@@ -6,7 +6,7 @@ const Footer = () => {
         
         <footer>
 
-            <h2 class="contact-title">Contact Me</h2>
+            <h2 class="section_title contact-title">Contact Me</h2>
             <div class="underline"></div>
 
             <a href="mailto:kevinmisati001@gmail.com" class="footer_link">kevinmisati001@gmail.com</a>

@@ -34,36 +34,26 @@
   }
 }
 .intro h1{
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--clr-light);
     text-align: center;
 }
 .intro h3.front-end-title{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--clr-light);
 }
-@media(max-width:767px){
+@media(max-width:567px){
   .intro h1{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
    
   }
   .intro h3.front-end-title{
-    font-size: 1.5rem;
-    color: var(--clr-light);
+    font-size: 1.15rem;
 }
 .intro img{
-  width: 37px;
+  width: 35px;
   margin-bottom: 1rem;
   display: block;
 }
-}
-@media(min-width:1030px){
-    .intro{
-        text-align: center;
-        width:90vw;
-    } 
-h3.front-end-title{
-    margin: 1em;
 
- }
 }

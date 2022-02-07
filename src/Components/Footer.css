@@ -46,7 +46,7 @@ footer a:hover{
 }
 
 span.fab{
-    font-size: 1em;
+    font-size: 1rem;
     margin: 0 auto;
 }
 
@@ -55,4 +55,16 @@ span.fab{
     margin: 0 auto;
     text-transform: uppercase;
     padding: 1rem;
+}
+@media screen and (max-width:567px){
+    span.fab{
+        font-size: .75rem;
+    }
+    .footer_link{
+        font-size: 1rem;
+    }
+    .fa-fw{
+        width:1.1rem;
+        margin:0 .5rem ;
+    }
 }

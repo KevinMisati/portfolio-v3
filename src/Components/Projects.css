@@ -48,6 +48,7 @@
         position: relative;
         background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
          transition: var(--transition);
+         margin: auto;
     }
     .links{
     transform: translate(35px,0px);
@@ -111,10 +112,12 @@
     }
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:567px){
      .project-image-div{
         width: 80vw;
         height:300px;
+        margin: auto;
+
     }
 
 }
