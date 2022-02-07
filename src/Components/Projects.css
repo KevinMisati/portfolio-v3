@@ -1,9 +1,6 @@
 .my_work{
-    width: 100vw;
     background: rgba(248, 250, 249, 0.747);
     z-index: -500;
-    overflow: hidden;
-    width: 100%;
 }
     .section_title_projects{
         text-align: center;
@@ -14,7 +11,7 @@
         color:#56e7d4 ;
     }
     .projects-container{
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -37,6 +34,8 @@
         width: 90vw;
         margin:2rem auto; 
         position: relative;
+        display: flex;
+        justify-content: center;
     }
     .project-image-div{
         height:300px;
