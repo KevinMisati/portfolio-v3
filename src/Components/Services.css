@@ -33,6 +33,8 @@ section.my_services{
     max-width: 600px;
 }
 
+
+
 @media (min-width:800px){
     .services{
         margin:auto ;
