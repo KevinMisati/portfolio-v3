@@ -12,16 +12,16 @@ export const projects = [
         desc:""
     },
     {
+        title: "Hospitality Website",
+        url: "https://liviti.netlify.app/",
+        img: "./images/livit.png"
+    },
+    {
         title: "Jumia",
         url: "https://jumia-clone1.netlify.app/",
         img: "./images/jumia.png",
         techs: [],
         desc: ""
-    },
-    {
-        title: "Hospitality Website",
-        url: "https://liviti.netlify.app/",
-        img: "./images/livit.png"
     },
     {
         title: "Snap Shots",
