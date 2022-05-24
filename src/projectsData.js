@@ -14,14 +14,7 @@ export const projects = [
         desc: "This is a real-world full-stack e-commerce web app for selling laptops, phones, and accessories online. A buyer can browse the available products, add the ones he or she wants to buy to the cart, and finally checkout. Products can be delivered to a specified address or picked up from a nearby store, depending on the user's preference.",
         gurl:"https://github.com/KevinMisati/electronic-shop"
     },
-    {
-        title: "Jumia",
-        url: "https://jumia-clone1.netlify.app/",
-        img: jumia,
-        techs: ["CSS","React"],
-        desc: "This is a clone of Kenya's largest e-commerce platform for selling various products online.",
-        gurl: "https://github.com/KevinMisati/jumia-clone"
-    },
+    
     {
         title: "Snap Shots",
         url: "https://photos01.netlify.app/",
@@ -29,6 +22,14 @@ export const projects = [
         techs: ["CSS","React","Flickr API"],
         desc: "This is a photography website where users can search for images and have them displayed on the home page. These images are obtained from the Flickr API endpoint.",
         gurl: "https://github.com/KevinMisati/snapshots"
+    },
+    {
+        title: "Jumia",
+        url: "https://jumia-clone1.netlify.app/",
+        img: jumia,
+        techs: ["CSS", "React"],
+        desc: "This is a clone of Kenya's largest e-commerce platform for selling various products online.",
+        gurl: "https://github.com/KevinMisati/jumia-clone"
     },
     {
         title: "Hospitality Website",
