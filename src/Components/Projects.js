@@ -24,17 +24,18 @@ export const projects = [
         desc: ""
     },
     {
+        title: "Construction company",
+        url: "https://we-build1.netlify.app/",
+        img: "./images/construction.png"
+    },
+    {
         title: "Snap Shots",
         url: "https://photos01.netlify.app/",
         img: "./images/snapshot.png",
         techs: [],
         desc: ""
     },
-    {
-        title: "Construction company",
-        url: "https://we-build1.netlify.app/",
-        img:"./images/construction.png"
-     },
+    
     {
         title: "Nasa api",
         url: "https://nasaapii.netlify.app/",
