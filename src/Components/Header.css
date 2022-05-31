@@ -2,7 +2,6 @@ header{
     height: 70px;
     width: 100%;
     background-color: var(--clr-dark);
-    opacity: 0.8;
     border-bottom: 1px solid var(--clr-accent);
     display: flex;
     justify-content: center;
@@ -57,7 +56,7 @@ nav{
 }
 .logo h3{
     font-size: 2rem;
-    color: var(--clr-accent);
+    color: #fff;
     font-family: 'Pacifico', cursive;
     font-family: 'Satisfy', cursive;
 }

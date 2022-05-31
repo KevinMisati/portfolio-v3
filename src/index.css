@@ -16,6 +16,21 @@
     --clr-royal-blue:royalblue;
     --clr-crimson:crimson;
 
+    --clr-light:#fff;
+    --clr-lightGray:rgba(248, 250, 249, 0.747);
+    --clr-lightGray:#9d8189;
+    --clr-lightGray:rgb(248, 237, 235);
+    --clr-lightGray:#f8edeb;
+    --clr-lightGray:#edf6f9;
+    --clr-lightGray:#fff;
+    --clr-dark:#344e41;
+    --clr-dark:#344e41;
+    --clr-accent:rgb(208, 201, 192); 
+    --clr-accent:rgb(96, 108, 56); 
+    --clr-accent:#D0C9C0; 
+    --clr-accent:#e29578; 
+    --clr-accent:#a3b18a; 
+
     --fs-h1:3rem;
     --fs-h2:2rem;
     --fs-h3:1.25rem;
