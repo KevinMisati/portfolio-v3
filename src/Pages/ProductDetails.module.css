@@ -69,6 +69,9 @@
     flex: .60;
     margin: 2rem 0;
 }
+.about p{
+    color:#000;
+}
 .technologies{
     flex:.30;
 }
@@ -93,9 +96,10 @@
 }
 
 .tech-container:hover{
-     background-color: transparent;
-     color: var(--clr-dark);
+    background-color: transparent;
+    color: var(--clr-dark);
 }
+
 
 @media screen and (max-width:576px){
     .about-techs{
