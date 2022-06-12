@@ -11,7 +11,10 @@ const Intro = () => {
     Hello , I am Kevin Misati
 </h1>
 <h3 class="front-end-title">Am a Front-end Web Developer</h3>
-<a href="#work" class="btn">Check my work </a>
+<a href="#work" className={`btn`}>
+    <i className="fas fa-eye"></i>
+    View my work 
+</a>
 </section>
 </div>
 )
