@@ -10,14 +10,7 @@
     display: block;
     margin-bottom: 1.35rem;
 }
-.btn{
-  background-color: var(--clr-dark);
-  border: 1px solid var(--clr-dark);
-  box-shadow: 2px 2px 5px gray;
-}
-.btn:hover{
-  background-color: var(--clr-lightDark);
-}
+
 .btn i{
   margin-right: .25rem;
 }

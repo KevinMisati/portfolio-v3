@@ -20,7 +20,7 @@ const Services = () => {
     </div>
 
 </div>
-                <a className="btn" data-aos={ANIMATIONTYPE} href="#work" >My work</a>
+                <a   data-aos={ANIMATIONTYPE}  className="btn" href="#work" >My work</a>
 </section >
 </>
     )
