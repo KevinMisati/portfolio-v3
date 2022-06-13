@@ -62,6 +62,10 @@ textarea:focus,textarea:active{
 .invalid textarea{
     outline: 2px solid red;
 }
+.success{
+    font-size: .9rem;
+    max-width: 300px;
+}
 
 .footer-links{
     padding: 2rem 0;

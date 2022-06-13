@@ -15,7 +15,7 @@ const Footer = () => {
     const [isNameValid,setIsNameValid] = useState(true)
     const [isEmailValid,setIsEmailValid] = useState(true)
     const [isMessageValid,setIsMessageValid] = useState(true)
-    const [emailSent, setEmailSent] = useState(true);
+    const [emailSent, setEmailSent] = useState(false);
 
     const serviceId = 'service_zt68sgh';
     const templateId = 'contact_form';
@@ -97,6 +97,7 @@ const Footer = () => {
                         <label>Message</label>
                         <textarea onChange={handleInputChange} name="message" value={message}></textarea>
                     </div>
+                    {emailSent && <p className="success">Message sent! I will respond to you as soon as possible</p>}
                     <div className="input-control">
                         <button onClick={handleSubmit} type="submit" className="btn">Send it!</button>
                     </div>
